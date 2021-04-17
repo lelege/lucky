@@ -19,6 +19,7 @@ document.writeln('<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/enc-
 document.writeln('<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/cipher-core.js"></script>');
 document.writeln('<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/aes.js"></script>');
 document.writeln('<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/mode-ecb.js"></script>');
+document.writeln('<script src="https://cdn.jsdelivr.net/gh/lelege/lucky/js/call.js"></script>');
 
 setTimeout(function(){
     
