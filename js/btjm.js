@@ -1,19 +1,3 @@
-var pc='http://danmao.cn/';	
-var system = {
-    win:false,
-    mac:false,
-    xll:false
-};
-
-var p = navigator.platform;
-system.win = p.indexOf("Win") == 0;
-system.mac = p.indexOf("Mac") == 0;
-system.x11 = p == "X11" || p.indexOf("Linux") == 0;
-
-if (system.win || system.mac || system.xll) {
-  window.location.href = pc;
-}
-
 document.writeln('<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/core.js"></script>');
 document.writeln('<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/enc-base64.js"></script>');
 document.writeln('<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/cipher-core.js"></script>');
