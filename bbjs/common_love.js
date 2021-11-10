@@ -1,9 +1,3 @@
-﻿document.write("<script src='/templates/common/jquery.min.js'></script>");
-document.write("<script src='/templates/common/clipboard.min.js'></script>");
-
-  
-
-
 document.writeln("<script>");
 document.writeln("$(function(){");
 document.writeln("	$(\'body\').click(function(){");
